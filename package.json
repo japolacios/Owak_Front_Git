@@ -1,0 +1,20 @@
+{
+  "name": "owak_front",
+  "version": "1.0.0",
+  "description": "Owak Skills Test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Japo",
+  "license": "ISC",
+  "dependencies": {
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-sass": "^4.0.2"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
