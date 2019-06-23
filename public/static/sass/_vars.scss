@@ -1,14 +1,16 @@
 //Variables & General setup
 //Vars
 $general-background-color:#fbfcfc;
-
+$wrapper-whidth:80%;
+$wrapper-max-width:1400px;
+$main-color:#fbfcfc;
+$secondary-color: #37474f;
 
 //Header
 $header-background-image: url(../img/hero_background.png);
 $header-top-padding: 100px;
 
 //Nav Bar
-$nav-width:1400px;
 $nav-text-transform: uppercase;
 $nav-link-color:#fbfcfc;
 $nav-font-weight: bold;
@@ -16,6 +18,16 @@ $nav-font-size:18px;
 $nav-link-space: 4em;
 $nav-link-hover-color: #134185;
 $nav-link-hover-transition: all 0.6s ease-in-out;
+
+//Hero
+$hero-padding-top: 100px;
+$hero-max-width:1170px;
+$hero-title-size: 50px;
+$hero-title-transform: capitalize;
+$hero-text-size:18px;
+$hero-text-weight: 400;
+//CTA
+$cta-font-weight: bold;
 
 /*****************************************************
 //General Styles
@@ -29,6 +41,10 @@ body {
     background-color: $general-background-color;
     font-family: Poppins;
 
+}
+
+a {
+    transition: $nav-link-hover-transition;
 }
 
 .body-wrapper {
