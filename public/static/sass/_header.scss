@@ -16,6 +16,7 @@
         text-transform: $nav-text-transform;
         font-weight: $nav-font-weight;
         font-size: $nav-font-size;
+        z-index: 3;
 
         a,
         a:link,
@@ -47,6 +48,7 @@
         width: $wrapper-whidth;
         color: $general-background-color;
         padding-top: $hero-padding-top;
+
 
         .left {
             width: 45%;
@@ -108,6 +110,7 @@
             img {
                 position: absolute;
                 top: 90px;
+                z-index: 1;
             }
         }
     }
