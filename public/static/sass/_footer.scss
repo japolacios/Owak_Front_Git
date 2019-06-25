@@ -1,0 +1,19 @@
+footer {
+    background: #499aea;
+    display: flex;
+    justify-content: center;
+    color: $main-color;
+    font-size: 26px;
+    font-weight: bold;
+
+    .footer-wrapper {
+        margin: 2em auto;
+        max-width: $hero-max-width;
+        width: $wrapper-whidth;
+        display: flex;
+
+        p {
+            margin: 1em auto;
+        }
+    }
+}
