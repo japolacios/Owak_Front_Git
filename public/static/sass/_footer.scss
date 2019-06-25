@@ -11,9 +11,34 @@ footer {
         max-width: $hero-max-width;
         width: $wrapper-whidth;
         display: flex;
+        justify-content: space-between;
 
         p {
             margin: 1em auto;
+        }
+
+        .right {
+            display: flex;
+            align-items: center;
+        }
+
+        .social-media {
+            display: flex;
+            align-items: center;
+            font-size: 30px;
+            font-weight: 200;
+
+            a,
+            a:link,
+            a:visited {
+                color: $main-color;
+                margin: 0.3em;
+            }
+
+            a:hover {
+                color: $secondary-color;
+            }
+
         }
     }
 }
